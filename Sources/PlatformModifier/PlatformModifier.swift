@@ -53,10 +53,10 @@ extension View {
 }
 
 // Althogh library items are registered, Details are not previewed.
-struct PlatformModifier_Library<ContentView : View> : LibraryContentProvider {
+public struct PlatformModifier_Library<ContentView : View> : LibraryContentProvider {
 
     @LibraryContentBuilder
-    func modifiers(base: ContentView) -> [LibraryItem] {
+    public func modifiers(base: ContentView) -> [LibraryItem] {
         LibraryItem(base.iOS({ $0.padding(3) }),
                     title: "Platform iOS")
         LibraryItem(base.macOS({ $0.padding(3) }),
