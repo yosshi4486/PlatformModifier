@@ -9,4 +9,5 @@ See [Playgrounds](https://github.com/yosshi4486/PlatformModifier/tree/main/MyPla
 - SwiftUI
 
 ## Installation
+### Swift Package Manager
 Please install the package from `https://github.com/yosshi4486/PlatformModifier`.
