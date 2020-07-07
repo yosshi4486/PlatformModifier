@@ -51,3 +51,19 @@ extension View {
     }
 
 }
+
+// Previews in Swift Packages doesn't work now.
+// https://developer.apple.com/forums/thread/652621
+
+//struct ContentView_Preview : PreviewProvider {
+//
+//    static var previews: some View {
+//        Text("Hello Platform Modifier!")
+//            .bold()
+//            .iOS({ $0.background(Color.red) })
+//            .macOS({ $0.background(Color.blue) })
+//            .tvOS({ $0.background(Color.green) })
+//            .watchOS({ $0.background(Color.yellow) })
+//    }
+//
+//}
